@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Mo Landing page</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="/public/styles/normalize.css" />
+    <link rel="stylesheet" href="/public/styles/style.css" />
+
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="public/images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="public/images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="public/images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="public/images/favicon/site.webmanifest" />
+  </head>
+  <body>
+    <!-- Nav component -->
+    <nav class="nav">
+      <div class="menu-toggle collapsible">
+        <div class="menu-toggle__icon"></div>
+      </div>
+      <ul class="list nav__list collapsible__content">
+        <li class="nav__item">
+          <a href="/" class="link">Home</a>
+        </li>
+        <li class="nav__item"><a href="/about" class="link">About</a></li>
+        <li class="nav__item"><a href="/blog" class="link">Blog</a></li>
+        <li class="nav__item"><a href="/contact" class="link">Contact</a></li>
+      </ul>
+      <div class="menu__bg"></div>
+      <a href="#" class="link logo"> Mo. </a>
+    </nav>
+
+    <!-- Hello section -->
+    <section class="hello block">
+      <div class="container">
+        <div class="grid grid--1x2">
+          <h1>hello everyone</h1>
+          <p>
+            It was a quiet summer morning. The sun stood already pretty high in
+            the clear sky but the fields were still sparkling with dew; a fresh
+            breeze blew fragrantly from the scarce awakened valleys and in the
+            forest, still damp and hushed, the birds were merrily carolling
+            their morning song.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Works Section -->
+    <section class="works block">
+      <div class="container--large">
+        <div class="grid grid--1x4 works__grid">
+          <a href="#" class="work">
+            <img src="/public/images/project-02.png" alt="" />
+          </a>
+          <a href="#" class="work">
+            <img src="/public/images/project-01.png" alt="" />
+          </a>
+          <a href="#" class="work">
+            <img src="/public/images/project-03.png" alt="" />
+          </a>
+          <a href="#" class="work">
+            <img src="/public/images/project-04.png" alt="" />
+          </a>
+          <a href="#" class="work">
+            <img src="/public/images/project-04.png" alt="" />
+          </a>
+          <a href="#" class="work">
+            <img src="/public/images/project-03.png" alt="" />
+          </a>
+          <a href="#" class="work">
+            <img src="/public/images/project-01.png" alt="" />
+          </a>
+          <a href="#" class="work">
+            <img src="/public/images/project-02.png" alt="" />
+          </a>
+        </div>
+        <a href="#" class="btn btn--outline btn--small">show more</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about block">
+      <div class="container">
+        <div class="grid grid--1x2">
+          <h1>about me</h1>
+          <p>
+            The idea of beauty is the fundamental idea of everthing. In the
+            world we see only distortions of th e fundamental idea, but art. by
+            imagination, may lift itself to the height of this idea. Art is
+            therefore akin to creation.
+          </p>
+        </div>
+        <div class="grid grid--1x2">
+          <div class="about__me">
+            <img
+              src="/public/images/mon3m.jpg"
+              alt="Mohamed Abdelmoniem picture"
+            />
+          </div>
+          <div class="skills">
+            <h2>skills</h2>
+
+            <div class="skill">
+              <div class="skill__info">
+                <p class="skill__name">UI & web design</p>
+                <p class="skill__percentage">90%</p>
+              </div>
+              <div class="skill__prog-bar">
+                <div class="skill__prog-bar--complete" style="width: 90%"></div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="skill__info">
+                <p class="skill__name">UX</p>
+                <p class="skill__percentage">70%</p>
+              </div>
+              <div class="skill__prog-bar">
+                <div class="skill__prog-bar--complete" style="width: 70%"></div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="skill__info">
+                <p class="skill__name">HTML & CSS</p>
+                <p class="skill__percentage">50%</p>
+              </div>
+              <div class="skill__prog-bar">
+                <div class="skill__prog-bar--complete" style="width: 50%"></div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="skill__info">
+                <p class="skill__name">Javascript</p>
+                <p class="skill__percentage">30%</p>
+              </div>
+              <div class="skill__prog-bar">
+                <div class="skill__prog-bar--complete" style="width: 70%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Section  -->
+    <section class="blog block">
+      <div class="container">
+        <div class="grid grid--2x3">
+          <div class="blog__post" style="width: 80%">
+            <!-- Post -->
+            <a href="#" class="post">
+              <div class="post__image">
+                <img
+                  style="width: 100%"
+                  src="/public/images/build-your-billion-dollar-idea.jpg"
+                  alt="build your billion dollar idea"
+                />
+              </div>
+              <h3 class="post__title">How to get billion dollar idea?</h3>
+              <p class="post__excerpt">
+                If you don't have a friend that showing off with these ideas,
+                don't worry I got ya here are the greatest ideas you'll hear
+                about ever. complete reading these article to get what you
+                want..
+              </p>
+              <p class="post__date">Jan 6, 2022</p>
+            </a>
+            <!-- ./end Post -->
+          </div>
+          <div class="blog__title">
+            <h1>
+              new<br />
+              in blog
+            </h1>
+            <a href="#" class="btn btn--outline">view all posts</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <div class="contact block">
+      <div class="container">
+        <h1>Contact</h1>
+        <div class="grid grid--1x2">
+          <div class="contact__title">
+            <p>Have a questions, offers on cooperation?</p>
+            <p>Feel free to contact me!</p>
+            <div class="contact__info">
+              <!-- address -->
+              <p>Cairo, Egypt.</p>
+              <!-- mail -->
+              <p>
+                <a href="#" class="link link--under-line">dev@mon3m.com</a>
+              </p>
+              <!-- phone number -->
+              <p>
+                <a href="#" class="link link--under-line">+20 111 1798 451</a>
+              </p>
+            </div>
+          </div>
+          <div class="contact__form">
+            <form class="contact-form" autocomplete="off">
+              <div class="input-group">
+                <input
+                  type="text"
+                  placeholder="Name"
+                  autocomplete="off"
+                  id="contact_name"
+                  required
+                />
+              </div>
+              <div class="input-group">
+                <input
+                  type="email"
+                  placeholder="Email"
+                  autocomplete="off"
+                  id="contact_email"
+                  required
+                />
+              </div>
+              <div class="input-group">
+                <textarea
+                  class="input"
+                  placeholder="Message"
+                  rows="5"
+                  id="contact_message"
+                ></textarea>
+              </div>
+              <div class="input-group">
+                <button
+                  class="btn btn--outline"
+                  id="contact_submit"
+                  type="submit"
+                >
+                  send message
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container--large">
+        <p class="footer__copy-rights">
+          &copy; 2022 MOn3m all rights reserved.
+        </p>
+        <div class="footer__social">
+          <div class="footer__social-media">
+            <p>Social</p>
+            <div class="social__links">
+              <a href="#" class="link">
+                <svg class="icon">
+                  <use xlink:href="/public/images/sprite.svg#twitter"></use>
+                </svg>
+              </a>
+              <a href="#" class="link">
+                <svg class="icon">
+                  <use xlink:href="/public/images/sprite.svg#linkedin"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer__contact">
+            <a href="#" class="link">dev@mon3m.com</a>
+            <a href="#" class="link">+20 111 179 8451</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/public/main.js"></script>
+  </body>
+</html>
